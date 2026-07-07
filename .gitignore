@@ -1,0 +1,28 @@
+# Node modules (semua folder)
+node_modules/
+**/node_modules/
+
+# Environment variables (JANGAN ignore .env.example)
+.env
+.env.local
+.env*.local
+**/.env
+**/.env.local
+!**/.env.example
+
+# Backend
+backend/uploads/
+
+# Frontend (Next.js)
+frontend/.next/
+frontend/out/
+
+# Mobile (Expo)
+mobile/my-app/.expo/
+mobile/my-app/.expo-shared/
+mobile/my-app/*.log
+
+# Misc
+.DS_Store
+*.log
+package-lock.json
